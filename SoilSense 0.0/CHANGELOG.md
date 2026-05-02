@@ -25,7 +25,7 @@ git clone https://github.com/DragonfireCoder/microbiome-ai.git
 cd microbiome-ai
 pip install -r requirements.txt
 python app.py
-
+```
 **v.0.1: Bigger, Faster, Stronger**
 
 ### Added
