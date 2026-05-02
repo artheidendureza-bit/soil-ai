@@ -1,0 +1,12 @@
+flask
+torch
+torchvision
+pillow
+matplotlib
+tqdm
+scikit-learn
+opencv-python
+numpy
+scipy
+gradio
+qrcode[pil]
