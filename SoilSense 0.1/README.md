@@ -55,18 +55,26 @@ python app.py
 
 ### Local (Run on Your Computer)
 
-1. Clone the repository:
+1. Get some of your own photos. You only need a few.
+
+2. Use the data augmentation file to get a bigger dataset.
+
+3. Train the AI. I suggest if you have a GPU, train using this AI. If you have a CPU, use the first AI.
+   More CPU-Friendly files coming soon.
+
+5. Clone the repository:
    ```bash
    git clone https://github.com/DragonfireCoder/microbiome-ai.git
    cd microbiome-ai
 
-2. Create a virtual environment
+6. Create a virtual environment
     python -m venv venv
     source venv/bin/activate      # Mac/Linux
     venv\Scripts\activate         # Windows
 
-3. Install the dependencies
+7. Install the dependencies
     pip install -r requirements.txt
 
-4. Run the app!
+4
+7. Run the app!
     python app.py
