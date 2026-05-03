@@ -30,8 +30,8 @@
 
 **Hardware:** Any modern CPU
 **What you get:**
-- 3-5 models
-- 64×64, Light SWA
+- 5 models
+- 96x96, full SWA
 - 8-12 hour training
 
 ## v0.11-CPU (Coming Soon)
@@ -39,5 +39,5 @@
 **Hardware:** Modern CPU, 8GB+ RAM
 **What you get:**
 - 5-6 models
-- 64×64, Focal Loss, Sentinel
+  96×96, Focal Loss, Sentinel
 - 12-18 hour training
