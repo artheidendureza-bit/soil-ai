@@ -1,32 +1,43 @@
 # Version Compatibility Guide
 
-## v0.1 (GPU Required)
+## v0.11 (GPU Required – Professional)
 
-**Hardware:** NVIDIA GPU with 8GB+ VRAM (tested on GTX 1080 Ti)
+**Hardware:** NVIDIA GPU 8GB+ VRAM
+**What you get:**
+- 8 models (7 soil + 1 Sentinel)
+- 128×128, SWA, MixUp, CutMix
+- SAM, Focal Loss, NOT_SOIL
+- Auto-evolution pipeline
+**Dataset:** 20 images per class
 
-**What you get:** 
-- 7-model ensemble
-- 128×128 resolution
-- SWA, MixUp, CutMix
-- Fast training (minutes to hours)
+## v0.1 (GPU Required – Advanced)
 
-## v0.0 (CPU-FRIENDLY)
+**Hardware:** NVIDIA GPU 6GB+ VRAM
+**What you get:**
+- 7 models
+- 128×128, SWA, MixUp, CutMix
+**Dataset:** 20 images per class
+
+## v0.0 (CPU-Friendly – Baseline)
 
 **Hardware:** CPU or low-end GPU
-
 **What you get:**
-- 5-model ensemble
-- 32×32 resolution
-- No SWA, no MixUp
+- 5 models
+- 32×32, no SWA, no MixUp
+**Dataset:** 20 images per class
 
-**Dataset required:** User must provide 20 images per class
+## v0.1-CPU (Coming Soon)
 
-## How to Choose
+**Hardware:** Any modern CPU
+**What you get:**
+- 3-5 models
+- 64×64, Light SWA
+- 8-12 hour training
 
-| If you want... | Use this version |
-|----------------|------------------|
-| Best accuracy, have GPU | v0.1 |
-| No GPU, just want to try | v0.0 |
-| Retrain from scratch | v0.1 |
-| Run immediately, no training | v0.0 |
-| Make your own dataset | Any version (use SetupMicrobiomeData.py) |
+## v0.11-CPU (Coming Soon)
+
+**Hardware:** Modern CPU, 8GB+ RAM
+**What you get:**
+- 5-6 models
+- 64×64, Focal Loss, Sentinel
+- 12-18 hour training
