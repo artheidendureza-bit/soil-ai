@@ -1,0 +1,6 @@
+image_path,actual,predicted,disagreement_score,model_disagreements
+data/test\GRASS\aug_431_grass.png,GRASS,GRASS,0.25,"{'LEAF', 'GRASS'}"
+data/test\GRASS\aug_349_grass.png,GRASS,GRASS,0.25,"{'LEAF', 'GRASS'}"
+data/test\LEAF\aug_295_leaf.png,LEAF,LEAF,0.25,"{'LEAF', 'MIX'}"
+data/test\GRASS\aug_479_grass.png,GRASS,GRASS,0.25,"{'LEAF', 'GRASS'}"
+data/test\GRASS\aug_269_grass.png,GRASS,GRASS,0.25,"{'LEAF', 'GRASS'}"
